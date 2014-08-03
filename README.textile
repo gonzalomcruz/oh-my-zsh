@@ -1,3 +1,11 @@
+h2. Hi!
+
+This is a forked repo from git://github.com/robbyrussell/oh-my-zsh.git
+
+I pulled a new theme 'dstufft_custom' based on the original 'dstufft' theme and a new .zshrc template.
+
+
+
 !https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png!
 
 oh-my-zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and few things that make you shout...
@@ -9,34 +17,11 @@ h2. Setup
 @oh-my-zsh@ should work with any recent release of "zsh":http://www.zsh.org/, the minimum recommended version is 4.3.9.
 If not already, install zsh using the command line first.
 
-h3. The automatic installer... (do you trust me?)
-
-You can install this via the command line with either @curl@ or @wget@.
-
-h4. via @curl@
-
-@curl -L http://install.ohmyz.sh | sh@
-
-h4. via @wget@
-
-@wget --no-check-certificate http://install.ohmyz.sh -O - | sh@
-
-h4. Optional: change the install directory
-
-The default location is @~/.oh-my-zsh@ (hidden in your home directory).
-
-You can change the install directory with the ZSH environment variable, either
-by running @export ZSH=/your/path@ before installing, or setting it before the
-end of the install pipeline like this:
-
-@curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh@
-
-
 h3. The manual way
 
 1. Clone the repository
 
-  @git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh@
+  @git clone git://github.com/gonzalomcruz/oh-my-zsh.git ~/.oh-my-zsh@
 
 2. *OPTIONAL* Backup your existing @~/.zshrc@ file
 
@@ -44,7 +29,7 @@ h3. The manual way
 
 3. Create a new zsh config by copying the zsh template we've provided.
 
-  @cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc@
+  @cp ~/.oh-my-zsh/custom/templates/zshrc.zsh-template ~/.zshrc@
 
 4. Set zsh as your default shell:
 
