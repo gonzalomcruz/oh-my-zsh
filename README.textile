@@ -2,7 +2,7 @@ h2. Hi!
 
 This is a forked repo from git://github.com/robbyrussell/oh-my-zsh.git
 
-I pulled a new theme 'dstufft_custom' based on the original 'dstufft' theme and a new .zshrc template.
+I created a new theme 'dstufft_custom' based on the original 'dstufft' theme and a new .zshrc template.
 
 
 
